@@ -9,9 +9,7 @@
     <script defer src="js/todo-app.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            restoredTodoArr = JSON.parse(localStorage.getItem('Дела мамы')) || [];
-            createTodoApp(document.getElementById('todo-app'), 'Дела мамы', restoredTodoArr);
-            console.log(localKey)
+            createTodoApp(document.getElementById('todo-app'), 'Дела мамы', 'Мама');
         });
     </script>
 </head>
